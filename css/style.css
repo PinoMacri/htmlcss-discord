@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 30px;
 }
 /*GENERAL*/
@@ -21,7 +21,7 @@ p {
 /*CENTRALIZZAZIONE LAYOUT*/
 .flex-container {
     display: flex;
-    width: 60%;
+    width: 1200px;
     margin: 15px 0px;
 }
 .esternalColumn {
@@ -53,7 +53,7 @@ p {
 }
 .masterSectionBluePink {
    display: flex;
-    width: 60%;
+   width: 1200px;
     margin: 50px auto;
 }
 .sectionBlue {
@@ -72,7 +72,7 @@ p {
     text-align: center;
 }
 .masterSectionGreen {
-    width: 60%;
+    width: 1200px;
     margin: 50px auto;
 }
 .miniDivImgAside {
@@ -94,7 +94,7 @@ p {
 }
 .masterSectionColumnFooter {
     display: flex;
-    width: 60%;
+    width: 1200px;
     margin-top: 5px;
     margin-bottom: 30px;
     margin-right: auto;
@@ -117,7 +117,7 @@ p {
     justify-content: center;
 }
 .secondtypeSectionColumnFooter {
-    width: 60%;
+    width: 1200px;
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
@@ -170,7 +170,7 @@ main {
     min-height: 620px;
 }
 main section {
-    width: 50%;
+    width: 800px;
     margin: 50px 0px;
     background-color: transparent;
     text-align: center;
