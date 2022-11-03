@@ -112,13 +112,13 @@
 
 /*HEADER*/
 header {
-    background-color: #ADD8E6;
+    background-color: #255EE9;
     min-height: 50px;
     display: flex;
     justify-content: center;
 }
 header div {
-    background-color: goldenrod;
+    background-color: transparent;
 }
 header div li {
     display: inline-block;
@@ -126,7 +126,7 @@ header div li {
 }
 header div a {
    text-decoration: none;
-   color: black;
+   color: white;
    padding: 5px;
 }
 
@@ -134,12 +134,14 @@ header div a {
 main {
     display: flex;
     justify-content: center;
-    background-color: #00008B ;
-    min-height: 500px;
+    background-image: url('../img/jumbo.png') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 620px;
 }
 main section {
     width: 50%;
     margin: 50px 0px;
-    background-color: #EE82EE;
+    background-color: transparent;
     border: 2px dashed black;
 }
