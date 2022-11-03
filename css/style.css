@@ -170,14 +170,14 @@ main {
     min-height: 620px;
 }
 main section {
-    width: 800px;
-    margin: 50px 0px;
+    width: 680px;
+    margin: 50px auto;
     background-color: transparent;
     text-align: center;
 }
 main section h1 {
-    font-size: 60px;
-    margin: 80px auto;
+    font-size: 55px;
+    margin: 60px auto;
     color: white;
 }
 main section p {
@@ -188,7 +188,7 @@ main section a {
     text-decoration: none;
     color: white;
     margin: 0px 40px;
-    font-size: 25px;
+    font-size: 20px;
 }
 #downloadMac {
     color: black;
