@@ -85,6 +85,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 80px;
 }
 .typeFooter-Container {
     min-height: 600px;
@@ -222,6 +223,9 @@ aside a {
     text-decoration: none;
     margin-top: 20px;
 }
+.divImgAside img {
+    width: 100%;
+}
 
 /*FOOTER*/
 footer {
@@ -251,6 +255,10 @@ footer h3 {
 .footerPink div p,i {
     color: white;
     margin-right: 5px;
+}
+.footerGreen li a {
+    text-decoration: none;
+    color: white;
 }
 .footerIta i {
 font-size: 15px;
