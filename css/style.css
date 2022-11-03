@@ -1,0 +1,145 @@
+/*CSS RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+/*CENTRALIZZAZIONE LAYOUT*/
+.flex-container {
+    display: flex;
+    width: 60%;
+    margin: 15px 0px;
+}
+.esternalColumn {
+    flex-basis: calc(100% / 5 );
+    padding: 15px;
+}
+.centralColumn {
+    flex-basis: calc(100% / 5 * 3 );
+    text-align: center;
+    padding: 15px;
+}
+.styleDivGeneral {
+    border: 2px dashed black;
+}
+.dx {
+    text-align: right;
+}
+.firstTypeAside-Container {
+    background-color: white;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+
+}
+.secondTypeAside-Container {
+    background-color: #D3D3D3;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+  
+}
+.masterSectionBluePink {
+   display: flex;
+    width: 60%;
+    margin: 50px auto;
+}
+.sectionBlue {
+    background-color: #1E90FF;
+    flex-basis: calc(100% / 3 * 2);
+}
+.sectionPink {
+    background-color: #FFC0CB;
+    flex-basis: calc(100% / 3);
+}
+.ultimateTypeAside-ContainerXXL {
+    display: flex;
+    justify-content: center;
+    min-height: 800px;
+    background-color: #D3D3D3;
+}
+.masterSectionGreen {
+    width: 60%;
+    margin: 50px auto;
+    background-color: #228B22;
+}
+.typeFooter-Container {
+    background-color: #23272A;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.masterSectionColumnFooter {
+    display: flex;
+    width: 60%;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.footerPink {
+    width: calc(100% / 6 * 2);
+    background-color: #F08080;
+    border: 1px dashed black;
+}
+.footerGreen {
+    width: calc(100% / 6 );
+    background-color: #20B2AA;
+    border: 1px dashed white;
+}
+.secondTypeFooter-Container {
+    background-color: #23272A;
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid white;
+}
+.secondtypeSectionColumnFooter {
+    width: 60%;
+    margin-top: 20px;
+    background-color: #7FFFD4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.divUltimateFooter {
+    background-color: #FFB6C1 ;
+    border: 1px dashed black ;
+    padding: 5px;
+}
+
+/*HEADER*/
+header {
+    background-color: #ADD8E6;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+}
+header div {
+    background-color: goldenrod;
+}
+header div li {
+    display: inline-block;
+    margin: 0px 5px;
+}
+header div a {
+   text-decoration: none;
+   color: black;
+   padding: 5px;
+}
+
+/*MAIN*/
+main {
+    display: flex;
+    justify-content: center;
+    background-color: #00008B ;
+    min-height: 500px;
+}
+main section {
+    width: 50%;
+    margin: 50px 0px;
+    background-color: #EE82EE;
+    border: 2px dashed black;
+}
